@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plumb", sans-serif;
+}
+
+.container {
+  width: 1112px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 33px 180px;
+
+  border-bottom: 1px solid #fff;
+}
+
+.header_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav_link {
+  font-size: 16px;
+  line-height: 135%;
+  text-decoration: none;
+  margin: 0 47px 0 47px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.search_btn {
+  margin-right: 70px;
+}
+
+.header_language {
+  display: flex;
+  align-items: baseline;
+  font-size: 16px;
+  line-height: 135%;
+  /* identical to box height, or 22px */
+
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.header_language_img {
+  margin-right: 11px;
+}
+
+.item_inner {
+  display: flex;
+}
+
+.section_intro {
+  width: 100%;
+  height: 100vh;
+  padding-top: 274px;
+
+  background: url(./img/bgc.png) no-repeat center top/ cover;
+}
+
+.intro_text {
+  margin-right: 152px;
+  color: #ffffff;
+}
+
+.intro_title {
+  max-width: 465px;
+  max-height: 74px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 160%;
+  /* or 102px */
+
+  text-transform: uppercase;
+}
+
+.intro_subtitle {
+  max-width: 533px;
+  font-family: Circe;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  margin: 35px 0 25px 0;
+}
+
+.more_link {
+  font-family: Circe;
+  font-size: 16px;
+  line-height: 135%;
+  text-decoration: none;
+
+  color: #fff;
+}
+
+.block_intro_text {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 130%;
+  /* or 27px */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.block_intro_1,
+.block_intro_2,
+.block_intro_3,
+.block_intro_4 {
+  width: 255px;
+  padding: 30px;
+  margin: 15px;
+}
+
+.block_intro_1 {
+  background: #2378fc;
+}
+
+.block_intro_2 {
+  background: #30bcc9;
+}
+
+.block_intro_3 {
+  background: #ffc41e;
+}
+
+.block_intro_4 {
+  background: #f6404f;
+}
+
+.block_intro_text {
+  margin-bottom: 15px;
+}
+
+.intro_item {
+  display: flex;
+  justify-content: flex-end;
+
+  /* width: 540px; */
+}
+
+.intro_item_main {
+  display: flex;
+}
+
+.intro_block {
+  margin-top: 120px;
+}
